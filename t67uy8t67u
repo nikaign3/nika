@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	////int dog = 30, cat = 12;
+	////if (dog >= 0 && dog <= 30) { cout << "dogs age is ok" << endl; }
+	////else cout << "wrong dogs age" << endl;
+	////if (cat > 0 && cat <= 20) { cout << "cats age is ok" << endl; }
+	////else cout << "wrong cats age" << endl;
+  
+  	int age = 12;
+	string parole = "e1";
+	string parolein;
+	cin >> parolein;
+	if (parolein == parole)
+	{
+		{cout << "ok" << age; }
+	else { cout << "wrong"; }
+
+	int age = 12; string p = "0000", p1;
+	cin >> p1;
+	cout << "------------" << endl;
+	if (p == p1) { cout << "all good" << endl << "the age is" << endl;}
+	else cout <<"wrong"
+
+
+}
+
+	
+		return 0
+}
