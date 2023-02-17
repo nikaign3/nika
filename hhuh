@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+//int main()
+//{
+//	vector < int> num{ 1,2,3,1,2 };
+//	if (num[0] == 1)cout << "1.veta ir 1";
+//	if (num[1] == 1)cout << "2.veta ir 1";
+//	if (num[2] == 1)cout << "3.veta ir 1";
+//	if (num[3] == 1)cout << "4.veta ir 1";
+//	if (num[4] == 1)cout << "5.veta ir 1";
+//
+//	if (num[0] == 4)cout << "1.veta ir 4";
+//	if (num[1] == 4)cout << "2.veta ir 4";
+//	if (num[2] == 4)cout << "3.veta ir 4";
+//	if (num[3] == 4)cout << "4.veta ir 4";
+//	if (num[4] == 4)cout << "5.veta ir 4";
+//cout << num[0] << num [1] << num[2] << num[3] << num[4];
+//}
+
+int main()
+{
+	vector <string> countries{ "USA","UK","CH","IND","CA","AU" };
+	vector <string> code{ "+1","+44", "+86","+91", "+1","+61" };
+	string num, cod;
+	std::cout <<"1.tel num,2.kods" << endl;
+	std::cin >> num >> cod;
+	if (code[0] == cod)std::cout << countries[0];
+	if (code[1] == cod)std:: cout << countries[1];
+	if (code[2] == cod)std::cout << countries[2];
+	if (code[3] == cod)std::cout << countries[3];
+	if (code[4] == cod)std::cout << countries[4];
+	if (code[5] == cod)std::cout << countries[5];
+	std::cout << cod << num;
+}
