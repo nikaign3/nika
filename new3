@@ -1,0 +1,79 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+//{
+//	vector<int>a{ 1,2,5,6,7,3,1,2 };
+//	int i = 0;
+//	do {
+//		if (a[i] == 3) { cout << "atradam 3 "; }
+//		if (a[i]==5) { cout << "atradam 5 "; }
+//		i++;
+//	} while (i < a.size());
+//	a.pop_back();
+//	a.at(4) = 5;
+//	a.push_back(3);
+//	i = 0;
+//	do {
+//		cout << a[i]<<endl;
+//		
+//		i++;
+//	} while (i < a.size());
+//}
+
+////{
+////	vector<string>c{ "galds","kresls","lampa","dators","durvis" };
+////	int i = 0;
+////	do {
+////		if (c[i] == "dators") { cout << "atradam dators "; }
+////		if (c[i] == "skapis") { cout << "atradam skapis "; }
+////		i++;
+////	} while (i < c.size());
+////	c.pop_back();
+////	c.at(3) = "laptops";
+////	c.push_back("logs");
+////	i = 0;
+////	do {
+////		cout << c[i] << endl;
+////		i++;
+////
+////	} while (i < c.size());
+////}
+
+{
+	vector<string> v{"usa", "uk","china","india","canada","australia" };
+	vector<string>c{"+1","+44","+86","+91","+1","+61" }; 
+	int i = 0;
+	string atb;
+	cin >> atb;
+	do {
+		if (v[i] == atb) cout << c[i];
+		i++;
+	} while (i < v.size());
+
+
+	i = 0;
+	cin >> atb;
+	do {
+		if (c[i] == atb) cout << v[i];
+		i++;
+	} while (i < c.size());
+
+	v.pop_back();
+	v.at(1) = "estonia";
+	v.push_back("latvia");
+	c.push_back("+371");
+	i = 0;
+	do {
+		cout << v[i] << endl;
+		i++;
+
+	} while (i < v.size());
+	i = 0;
+	do {
+		cout << c[i] << endl;
+		i++;
+
+	} while (i <cv.size());
+
+}
